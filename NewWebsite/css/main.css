@@ -16,7 +16,6 @@ header.up{
 
 }
 
-
 /* Navigation bar */
 
 nav{
@@ -39,4 +38,6 @@ ul li{
 footer.foot{
 	background-color: #293E6A;
 	clear: both;
+	text-align: center;
+	vertical-align: bottom;
 }
