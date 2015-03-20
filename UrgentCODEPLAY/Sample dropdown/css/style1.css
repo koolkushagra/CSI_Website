@@ -1,4 +1,3 @@
-@import url('demo.css');
 @import url('common.css');
 @import url('icons.css');
 
@@ -19,7 +18,7 @@
 }
 
 .cd-active.cd-dropdown > span {
-	color: #fc756f;
+	color:  #277EB9;
 }
 
 .cd-active.cd-dropdown > span,
@@ -36,6 +35,6 @@
 }
 
 .cd-active.cd-dropdown ul li span:hover {
-	background: #fc756f;
+	background: #277EB9;
 	color: #fff;
 }
