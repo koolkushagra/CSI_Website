@@ -1,12 +1,12 @@
 /** Body Definitions **/
-body.bodyclass{
+body{
 	background-color: #3B5998;
 	color:white;
 }
 
 
 /** Header **/
-header.up{
+header{
 	background-color: #293E6A;
 	float:left;
 	margin:0 0 30px 0;
@@ -35,7 +35,7 @@ ul li{
 
 /** Footer **/
 
-footer.foot{
+footer{
 	background-color: #293E6A;
 	clear: both;
 	text-align: center;
