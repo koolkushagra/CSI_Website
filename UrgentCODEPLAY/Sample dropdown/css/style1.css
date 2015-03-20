@@ -1,5 +1,7 @@
 @import url('common.css');
 @import url('icons.css');
+@import url('square/blue.css');
+
 
 .cd-dropdown > span,
 .cd-dropdown ul li:nth-last-child(-n+3) span {

@@ -1,10 +1,11 @@
 <html>
 	<head>
 		<title>Register</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css"/>
 		<link rel="shortcut icon" href="../favicon.ico"> 
 		<link rel="stylesheet" type="text/css" href="css/style1.css" />
-		<script src="js/modernizr.custom.63321.js"></script>
+		<link href="square/blue.css" rel="stylesheet"/>
+		<script src="js/modernizr.custom.63321.js"></script><script src="icheck.js"></script>
 	</head>
 
 	<body>
@@ -24,6 +25,8 @@
 					<label>Description of Project Idea <textarea type="text" name="description" /></textarea></label>
 					<label>Choose your track  Drop down list to be added </label>
 					<label>Have You attended any hack before ? Radio button to be added</label>
+					<input type="radio" name="iCheck">
+<input type="radio" name="iCheck" checked>
 					<label>If yes,Describe your project Idea <textarea type="text" name="proidea" /></textarea></label>
 				</div>
 				<div class="section"><span>3</span>Team Details</div>
@@ -53,9 +56,26 @@
 					gutter : 5
 				} );
 
-			});
-
-		</script>
+			});</script>
+			<script>
+$(document).ready(function(){
+  $('input').iCheck({
+    checkboxClass: 'icheckbox_square',
+    radioClass: 'iradio_square',
+    increaseArea: '20%' // optional
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $('input').iCheck({
+    checkboxClass: 'icheckbox_square-red',
+    radioClass: 'iradio_square-red',
+    increaseArea: '20%' // optional
+  });
+});
+</script>
+		
 				<div class="buttons">
 					<input type="submit" name="Register"/>
 				</div>
