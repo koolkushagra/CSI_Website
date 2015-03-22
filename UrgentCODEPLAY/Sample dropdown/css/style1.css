@@ -1,6 +1,6 @@
-@import url('common.css');
-@import url('icons.css');
-@import url('square/blue.css');
+/**@import url('demo.css');
+@import url('normalize.css');
+@import url('component.css');**/
 
 
 .cd-dropdown > span,
